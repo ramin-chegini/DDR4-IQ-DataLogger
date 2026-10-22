@@ -1,0 +1,39 @@
+# Vivado working directories and generated output products.
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Working copies unpacked by Vivado from the retained IP/*.xcix containers.
+/IP/ddr4_0/
+/IP/IFREC_fifo/
+/IP/IF_output_FIFO/
+/IP/IQ_LOG_FIFO/
+/IP/ila_0/
+
+# Logs, temporary files, waveforms and generated programming/debug files.
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.wdb
+*.vcd
+*.vpd
+*.bak
+*.tmp
+*.zip
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+__pycache__/

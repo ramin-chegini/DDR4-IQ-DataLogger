@@ -1,0 +1,11 @@
+* text=auto
+
+*.vhd text eol=lf
+*.vhdl text eol=lf
+*.md text eol=lf
+*.xpr text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Vivado core containers are ZIP-based binary archives.
+*.xcix binary
